@@ -1,2 +1,2 @@
-streamit
-pandas
+streamlit==1.22.0
+pandas==2.0.1
