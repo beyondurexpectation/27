@@ -3,6 +3,7 @@ import pandas as pd
 data=pd.read_excel(r"Rhimjhim.xlsx")
 
 new_data=st.experimental_data_editor(data,num_rows="dynamic")
+upload=st.sidebar("Pleaase Uplaod file here")
 
 
 final_data=pd.DataFrame(new_data)
